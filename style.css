@@ -1,0 +1,49 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav,ul{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+nav ul a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+body{
+    background-image: url("bird9.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.b{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.b1{
+    border: 3px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.b .b1 div a{
+    color: blueviolet;
+    font-size: 20px;
+    text-decoration: none;
+}
+ul a:hover{
+    color: blue;
+}
+.b .b1 div a:hover{
+    color: red;
+}
+
